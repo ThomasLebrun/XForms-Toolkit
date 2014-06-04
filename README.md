@@ -14,7 +14,7 @@ Available services (Beta):
 TextToSpeech
 
 What's planned: (plus what you want to contribute):
-Image Gallery, ImageButton, Checkbox, Radiobuttons,  LocationService , ShareService, LoginControl, Canvas, Converters..
+Image Gallery, ImageButton, Checkbox, Radiobuttons,  LocationService , ShareService, LoginControl, Canvas, MVVM helpers, Converters..
 
 Contributions:
 
