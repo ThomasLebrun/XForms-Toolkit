@@ -54,7 +54,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\CalendarCellView.cs" />
     <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\CalendarGridView.cs" />
     <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\CalendarPickerView.cs" />
@@ -66,6 +65,7 @@
     <Compile Include="Controls\Calendar\MonoDroid.TimesSquare\MonthView.cs" />
     <Compile Include="Services\TextToSpeechService.cs" />
     <Compile Include="Controls\Calendar\CalendarViewRenderer.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

@@ -67,9 +67,17 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\layout\calendar_picker.xml" />
+    <AndroidResource Include="Resources\layout\dialog.xml" />
+    <AndroidResource Include="Resources\layout\month.xml" />
+    <AndroidResource Include="Resources\layout\week.xml" />
+    <AndroidResource Include="Resources\values\attrs.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\color\calendar_text_selector.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <Import Project="../../src/XForms.Toolkit/packages/Xamarin.Forms.1.0.6188/build/portable-win+net45+wp80+MonoAndroid10+MonoTouch10/Xamarin.Forms.targets" />
@@ -86,5 +94,8 @@
       <Project>{4D10DF5E-883D-468B-A854-4A53C7FE75AC}</Project>
       <Name>XForms.Toolkit</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\color\" />
   </ItemGroup>
 </Project>
