@@ -1,5 +1,8 @@
 XForms Toolkit
-=====================
+=====
+Current Build Status:
+[![Build status](https://ci.appveyor.com/api/projects/status/gviviesikh1ohg7a)](https://ci.appveyor.com/project/rmarinho/xforms-toolkit)
+
 
 XForms Toolkit is a open source project that aims to provide a powerfull and cross platform set of controls taylored to work with Xamarin Forms.
 
@@ -14,7 +17,6 @@ TextToSpeech
 
 What's planned: (plus what you want to contribute):
 Image Gallery, ImageButton, LocationService , ShareService, LoginControl, Canvas, Converters..
-
 
 Contributions:
 
