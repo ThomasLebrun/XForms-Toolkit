@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -71,6 +71,7 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="packages.config" />
     <None Include="Controls\Calendar\MonoDroid.TimesSquare\License.txt" />
+    <None Include="XForms.Toolkit.Droid.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
@@ -93,12 +94,5 @@
       <Name>XForms.Toolkit</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Controls\" />
-    <Folder Include="Controls\Calendar\" />
-    <Folder Include="Resources\color\" />
-    <Folder Include="Resources\layout\" />
-    <Folder Include="Resources\drawable\" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>
